@@ -1,0 +1,56 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__container {
+    margin: 82px 64px 103px 64px;
+    max-width: 1150px;
+    background-color: #f9f9f9;
+    padding: 65px;
+    display: flex;  
+    }
+    &__content {
+    width: 80%;
+    margin-right: 57px; 
+    }
+    &__title {
+        font-size: 45px;
+        line-height: 32px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        color: #000000;
+        margin-bottom: 126px;
+    }
+    &__text {
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+        color: #000000;
+        margin-bottom: 101px;
+    }
+    &__img {
+        margin-bottom: 19px;
+        width: 100%;
+        &:nth-child(4) {
+            margin-bottom: 0;
+        }
+    }
+}
+.sidebar {
+    &__project {
+        display: flex;
+        flex-direction: column;;
+    }
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+    .link {
+        margin-right: 90px;
+        &:nth-child(3) {
+            margin-right: 0;
+        }
+    }
+}

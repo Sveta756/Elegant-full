@@ -1,0 +1,35 @@
+.title {
+    opacity: 0.7;
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: $first-color;
+    text-align: center;
+    &_card {
+        font-size: 21px;
+        line-height: 30px;
+        font-weight: 400;
+        margin-bottom: 36px;
+        text-align: left;
+    }
+    &_post {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 400;
+        letter-spacing: 0.03em;
+        text-align: left;
+    }
+}
+.subtitle {
+    font-size: 13px;
+    line-height: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: $second-color;
+    margin-bottom: 21px;
+    text-align: center;
+    &_left {
+        text-align: left;
+    }
+}

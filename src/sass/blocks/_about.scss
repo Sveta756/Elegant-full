@@ -1,0 +1,9 @@
+.about {
+    padding-top: 79px;
+    &__text {
+        @include text;
+        line-height: 32px;
+        margin-bottom: 45px;
+        margin-top: 53px;
+    }
+}

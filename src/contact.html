@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant - contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+   <div class="main-contact">
+       <div class="header">
+           <a href="index.html" class="header__link">
+               <img src="icon/logo.png" alt="logo" class="header__logo">
+            </a>
+           <div class="header__wrapper">
+            <div class="header__menu">
+                <p class="header__text">menu</p>
+                <div class="icon">
+                    <div class="hamburger"></div>
+                </div> 
+                <nav class="header__nav">
+                    <ul class="header__navigation">
+                        <li class="header__item"><a href="about.html" class="header__links">about</a></li>
+                        <li class="header__item"><a href="work.html" class="header__links">Work</a></li>
+                        <li class="header__item"><a href="project.html" class="header__links">project</a></li>
+                        <li class="header__item"><a href="blog.html" class="header__links">blog</a></li>
+                        <li class="header__item"><a href="contact.html" class="header__links">contact</a></li>
+                    </ul>     
+                </nav>
+            </div>
+           </div>
+       </div>
+    </div>
+       
+    <section class="connection">
+        <div class="container">
+            <p class="subtitle">This is it!</p>
+            <h2 class="title">Contact Us</h2>
+            <div class="connection__wrapper">
+                <div class="connection__address">
+                    <div class="connection__address-text">
+                        <div class="connection__line"></div>
+                        <p class="connection__info">Rua Serpa Pinto,
+                            Lisbon, Portugal</p>
+                    </div>
+                    <img src="img/address.jpeg" alt="photo" class="connection__img">
+                </div>
+                <div class="connection__phone">
+                    <div class="connection__text">
+                        <p>Good design as little design as possible. Good design is to chance. My goal is making something memorable and especially the consumer. Good design is aesthetic. Care and aesthetic. Good design emphasises the consumer. It does not only functional.</p>
+                    </div>
+                    <div class="connection__number">
+                        <div class="connection__line"></div>
+                        <p class="connection__info">+88 (0) 101 0000 000 <br>
+                            +88 (0) 101 0000 000</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn_nm submit" onclick="window.location.href='#modal'">Shote us an Email</button>
+            <!-- <div class="link">
+                <a href="#modal" class="btn btn_nm submit"><span>Shote us an Email</span></a>
+            </div> -->
+        </div>
+    </section>
+
+       <footer class="footer">
+           <div class="container">
+               <div class="footer__links">
+                   <a href="#" class="footer__link">© 2014 Designed and Developed by Diogo Dantas</a>
+                   <a href="#" class="footer__link">Email: imdiogodantas@gmail.com</a>
+               </div>
+           </div>
+       </footer>
+   
+       <div class="overlay">
+            <div class="modal" id="modal">
+                <div class="modal__close">&times;</div> 
+                <div class="modal__title">Contact Us</div>  
+                <form class="modal__form" action="#" id="form">
+                    <input name="name" type="text" placeholder="Your name">
+                    <input name="phone" placeholder="Your phone">
+                    <input name="email" type="email" placeholder="Your E-mail">
+                    <!-- <input type="submit"> -->
+                    <button id="modal-btn" type="submit" class="btn btn_nm">Submit &rarr;</button>
+                    <!-- Submit &rarr;</input> -->
+                </form>
+            </div>
+
+            <div class="modal__mini" id="thanks">
+                <div class="modal__close">&times;</div> 
+                <div class="modal__title">Thank you&#10084;</div>  
+           </div>
+        </div>
+
+        
+       
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

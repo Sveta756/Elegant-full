@@ -1,0 +1,54 @@
+.main {
+    min-height: 700px;
+    background: url('../img/main.jpg') center (center/cover) no-repeat;
+    &__title {
+        max-width: 1100px;
+        margin: 0 auto;
+        font-size: 80px;
+        line-height: 80px;
+        font-weight: 300;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        font-style: italic;
+        margin-top: 220px;
+        z-index: 5;
+        text-align: center;
+    }
+}
+#canvas  {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    margin-top: 80px;
+    height: 620px;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+
+.main-about {
+    min-height: 700px;
+    background: url('../img/about_background.jpg') center (center/cover) no-repeat;
+}
+
+.main-work {
+    min-height: 400px;
+    background: url('../img/work.jpeg') center (center/cover) no-repeat;
+}
+
+.main-project {
+    min-height: 700px;
+    background: url('../img/nora_back.jpeg') center (center/cover) no-repeat;
+}
+
+.main-blog {
+    min-height: 400px;
+    background: url('../img/blog-bg.jpeg') center (center/cover) no-repeat;
+}
+
+.main-contact {
+    min-height: 400px;
+    background: url('../img/contact.jpeg') center (center/cover) no-repeat;
+}

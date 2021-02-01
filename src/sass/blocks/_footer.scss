@@ -1,0 +1,16 @@
+.footer {
+    min-height: 93px;
+    background-color: #eeeeee;
+    &__links {
+        padding-top: 42px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link {
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 300;
+        color: #505d68;
+        text-decoration: none;
+    }
+}

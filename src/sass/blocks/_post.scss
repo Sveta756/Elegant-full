@@ -1,0 +1,35 @@
+.post {
+    padding-top: 82px;
+    padding-bottom: 80px;
+    &__card {
+        margin-top: 50px;
+        display: flex;
+        background-color: #f9f9f9;
+        margin-bottom: 80px;
+    }
+    &__img {
+        width: 50%;
+        object-fit: cover;
+    }
+    &__info {
+        padding: 44px 38px 61px 38px;
+    }
+    &__date {
+        font-size: 13px;
+        line-height: 13px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #505d68;
+        margin-bottom: 20px;
+    }
+    &__text {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+        letter-spacing: 0.05em;
+        color: #505d68;
+        margin-top: 33px;
+        margin-bottom: 56px;
+    }
+}
