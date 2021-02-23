@@ -58,10 +58,7 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn_nm submit" onclick="window.location.href='#modal'">Shote us an Email</button>
-            <!-- <div class="link">
-                <a href="#modal" class="btn btn_nm submit"><span>Shote us an Email</span></a>
-            </div> -->
+            <button id="contact" class="btn btn_nm">Shote us an Email</button>
         </div>
     </section>
 
@@ -73,34 +70,11 @@
                </div>
            </div>
        </footer>
-   
-       <div class="overlay">
-            <div class="modal" id="modal">
-                <div class="modal__close">&times;</div> 
-                <div class="modal__title">Contact Us</div>  
-                <form class="modal__form" action="#" id="form">
-                    <input name="name" type="text" placeholder="Your name">
-                    <input name="phone" placeholder="Your phone">
-                    <input name="email" type="email" placeholder="Your E-mail">
-                    <!-- <input type="submit"> -->
-                    <button id="modal-btn" type="submit" class="btn btn_nm">Submit &rarr;</button>
-                    <!-- Submit &rarr;</input> -->
-                </form>
-            </div>
-
-            <div class="modal__mini" id="thanks">
-                <div class="modal__close">&times;</div> 
-                <div class="modal__title">Thank you&#10084;</div>  
-           </div>
-        </div>
-
-        
+           
        
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/jquery.maskedinput.min.js"></script>
-    <script src="js/form.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="js/main.js"></script>
 
 </body>

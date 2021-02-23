@@ -15,7 +15,7 @@ $(document).ready(function(){
     }
   });
 
-      $('.btn_mini').click(function() {
+      $('.btn_mini, .btn_blog, #blog, #contact').click(function() {
         Swal.fire(
           'Good job!',
           'You clicked the button!',
